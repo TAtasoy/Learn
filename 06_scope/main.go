@@ -6,16 +6,10 @@ var PackVar = "Package Scope"
 
 func main() {
 
-	/* if true {
-		var BlockVar = "Block Scope"
-		fmt.Println(BlockVar)
-	} */
+	var name = "Tugberk"
+	name, surname := "Tugberk", "Atasoy" //normalde tekrar kısa gösterimle tanımlasam hata alıcaktım ama yanına ekstra bi değişken atadım hata olmadı.
 
-	var funcVar = "Func Scope"
-
-	fmt.Println(funcVar)
-	fmt.Println(PackVar)
-	myFunc()
+	fmt.Println(name, surname)
 }
 
 func myFunc() {
